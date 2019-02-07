@@ -1,7 +1,7 @@
 FROM debian:stretch
 
 RUN apt-get update && apt-get upgrade -y
-RUN apt-get install -y git screen vim wget file man u-boot-tools device-tree-compiler build-essential cpio autoconf autogen automake sudo
+RUN apt-get install -y git screen vim wget file man u-boot-tools device-tree-compiler build-essential cpio autoconf autogen automake sudo ncurses-dev
 
 RUN true \
     && mkdir -p /work/toolchain \
