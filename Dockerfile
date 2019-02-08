@@ -18,7 +18,7 @@ RUN true \
     && cd /work \
     && git clone https://github.com/DirtyHairy/r77-firmware-ng.git \
     && cd r77-firmware-ng \
-    && git submodule update --init
+    && git submodule update --init --recursive
 
 ENV OUTDIR=/work/out
 ENV TOOLCHAIN=/work/toolchain
