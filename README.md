@@ -1,7 +1,7 @@
 This is a dockerized build environment for the
 [Retron 77 firmware](https://github.com/DirtyHairy/r77-firmware-ng).
 
-Doing `docker build` will give you a build container based on Debian Stretch,
+Doing `docker build` will give you a build container based on Debian Bullseye,
 with all required tools installed and the toolchain set up. The repository
 is not mounted, but instead checkout out inside the container. This is done
 on purpose as my development system is a Mac and I Docker for Mac's I/O
